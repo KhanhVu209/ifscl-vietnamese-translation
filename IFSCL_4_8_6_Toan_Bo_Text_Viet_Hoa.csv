@@ -12635,10 +12635,10 @@ OptionDescr,CÓ,Yes,Có
 OptionDescr,CARTHAGE,Carthage,Carthage
 OptionDescr,SECTOR5LYOKO,Sector 5 + Lyoko,Khu vực 5 + Lyoko
 OptionDescr,KHÔNG,No,Không
-OptionDescr,LV1,Low,Low
-OptionDescr,LV2,Normal,Khôngrmal
-OptionDescr,LV3,High,High
-OptionDescr,LV4,Very High,Very High
+OptionDescr,LV1,Low,Thấp
+OptionDescr,LV2,Normal,Bình thường
+OptionDescr,LV3,High,Cao
+OptionDescr,LV4,Very High,Rất cao
 OptionDescr,VIELYOKO,"Living on Lyoko prisoner
 -Devirt unavailable
 -Sectors destruction unavailable
@@ -12647,8 +12647,8 @@ OptionDescr,VIELYOKO,"Living on Lyoko prisoner
 -Khu vựcs destruction unkha dung
 -Attack power unkha dung"
 OptionDescr,VIETERRE,"Living on Earth limited
-(Devirt with Cd: Code: Earth)","Living on Earth limited
-(Devirt with Cd: Códe: Earth)"
+(Devirt with Cd: Code: Earth)","Sống trên Trái đất bị giới hạn
+(Giải ảo hóa bằng đĩa CD: Code: Earth)"
 OptionDescr,VIETERREFREE,"Living on Earth freely
 (Can fight on Lyoko and be devirted)","Living on Earth freely
 (Can fight on Lyoko and be devirted)"
@@ -12657,14 +12657,14 @@ OptionDescr,STRANDOM,Random,Random
 OptionDescr,STXANA,"Permanently Xanafied
 (Devirt with Cd: Code: Liberator)","Permanently Xanafied
 (Devirt with Cd: Códe: Liberator)"
-OptionDescr,STTERRE,Normal,Khôngrmal
-OptionDescr,COSTS3,Basic,Basic
-OptionDescr,COSTS4,Upgraded,Upgraded
-OptionDescr,SUPERS,"Superscan (Automatic detection, requires constant energy)","Superscan (Automatic detection, requires constant nang luong)"
+OptionDescr,STTERRE,Normal,Bình thường
+OptionDescr,COSTS3,Basic,Cơ bản
+OptionDescr,COSTS4,Upgraded,Nâng cấp
+OptionDescr,SUPERS,"Superscan (Automatic detection, requires constant energy)","Superscan (Phát hiện tự động, yêu cầu năng lượng liên tục)"
 OptionDescr,BAL_RELAX,Relax,Relax
 OptionDescr,BAL_CLASSIC,Classic,Classic
 OptionDescr,BAL_EXPERT,Expert,Expert
-OptionDescr,MONOS,"Monoscan (Manual detection, needs Aelita to stay on Lyoko to alert)","Mởnoscan (Manual detection, needs Aelita to stay on Lyoko to alert)"
+OptionDescr,MONOS,"Monoscan (Manual detection, needs Aelita to stay on Lyoko to alert)","Monoscan (Phát hiện thủ công, cần Aelita ở trên Lyoko để cảnh báo)"
 OptionDescr,creditsDESCR,Display the game's credits.,Hiển thị GHI CÔNG của trò chơi.
 OptionDescr,authorDESCR,Open the official website of Immudelki.,Mở official website of Immudelki.
 OptionDescr,titreDESCR,Open the social page of the game.,Mở social page of the game.
@@ -12760,7 +12760,7 @@ OptionDescr,defectiveOSDESCR,"Probablity for the interface of the SC to shutdown
 OptionDescr,virtBugsDESCR,"Probability for virtualization system to bug, making the lyokowarriors to appear at random places","Probability for ao hoa he thong to bug, making the lyokowarriors to appear at random places"
 OptionDescr,futureFlashDESCR,"Randomly activates during battle when Odd has one ally or less. 
 Makes him vulnerable for 1 turn in exchange for 2 free turns afterwards.",Tự động kích hoạt ngẫu nhiên trong trận chiến khi Odd chỉ còn từ một đồng minh trở xuống. Làm cho Odd dễ bị tổn thương trong 1 lượt để đổi lấy 2 lượt đi tự do sau đó.
-OptionDescr,towerScanProgramDESCR,Program used to scan tower activity,Chương trinh used to scan thap activity
+OptionDescr,towerScanProgramDESCR,Program used to scan tower activity,Chương trình dùng để quét hoạt động của tháp
 OptionDescr,overvInstalledDESCR,Overvehicles installed in the supercomputer's memory on startup.,Overvehicles installed in sieu may tinh's memory on startup.
 OptionDescr,isWIP_old,[ WORK IN PROGRESS ],[ WORK IN PROGRESS ]
 OptionDescr,isWIP,[ REALWORLD INTERACTION NOT YET AVAILABLE ],[ REALWORLD INTERACTION KHÔNGT YET KHA DỪNG ]
@@ -12825,7 +12825,7 @@ OptionDescr,franzHopperAliveDESCR,"Franz Hopper can:
 -help you decypher his diary","Franz Hopper có thể:
 - Cứu Aelita nếu cô ấy rơi xuống biển kỹ thuật số
 - Giúp bạn giải mã nhật ký của ông ấy"
-OptionDescr,earthTroublesDESCR,Probability for Lyokowarriors to be blocked by someone on Earth (can be freed with voice modifier),Probability for Lyokowarriors to be bda khoa by someone on Earth (can be freed with voice modifier)
+OptionDescr,earthTroublesDESCR,Probability for Lyokowarriors to be blocked by someone on Earth (can be freed with voice modifier),Khả năng các chiến binh Lyoko bị ngăn cản bởi ai đó trên Trái Đất (có thể giải thoát bằng thiết bị thay đổi giọng nói)
 OptionDescr,costumesDESCR,"Costumes state on startup
 (cosmetic impact only)","Cóstumes state on startup
 (cosmetic impact only)"
