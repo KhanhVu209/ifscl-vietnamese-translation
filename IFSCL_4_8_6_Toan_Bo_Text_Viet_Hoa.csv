@@ -8723,7 +8723,7 @@ Words,letVehicleOutsideDESCR,You must let the vehicle outside the tower,You must
 Words,medias,Videos,Videos
 Words,othergames,Other creations,Other creations
 Words,about,About this version...,About this version...
-Words,siteOfficiel,Official website,Official website
+Words,siteOfficiel,Official website,Trang web chính thức
 Words,videos,Videos,Videos
 Words,noreponse,No reply,Không reply
 Words,virtCodes,Virtualization's codes,Ao hoa's codes
@@ -8732,10 +8732,10 @@ Words,accesVInterface,interface access,interface access
 Words,accessData,access data,access data
 Words,fullscreenonoff,Fullscreen on/off,Fullscreen on/off
 Words,districtTravel,district travel,district travel
-Words,inventory,inventory,inventory
+Words,inventory,inventory,túi đồ
 Words,agenda,agenda,LỊCH TRÌNH
-Words,trombinoscope,album,album
-Words,timeline,timeline,timeline
+Words,trombinoscope,album,album ảnh
+Words,timeline,timeline,dòng thời gian
 Words,inventoryOTHER,other,other
 Words,inventoryBOOK,books,books
 Words,inventoryKEY,keys,keys
@@ -9081,7 +9081,7 @@ Words,xanadesactive,tower deactivated by xana,thap deactivated by xana
 Words,tour_control_SansAelita,impossible to regain control of a tower without Aelita turned inside,impossible to regain control of a thap without Aelita turned inside
 Words,intelligence,intelligence,intelligence
 Words,idUniversel,universal ID,universal ID
-Words,limitedAccess,limited access,limited access
+Words,limitedAccess,limited access,quyền truy cập hạn chế
 Words,passage,way,way
 Words,affReseauImpo,map not matching,map not matching
 Words,deadlyDevirt,deadly devirt.,deadly devirt.
@@ -9500,7 +9500,7 @@ Words,rassemblementAC,gathering com cards...,gathering com cards...
 Words,lockAC,attaching com cards...,attaching com cards...
 Words,missionCompleted,Mission completed,Mission completed
 Words,missionNeedsCompletion,mission needs to be completed,mission needs to be completed
-Words,limitedTime,time limited,time limited
+Words,limitedTime,time limited,thời gian hạn chế
 Words,blocNeedsMission,Start a mission to give instructions,Bắt đầu a mission to give instructions
 Words,noInstructionToGive,No instructions to give,Không instructions to give
 Words,saveFKeys,save shortcuts,save shortcuts
@@ -12609,28 +12609,28 @@ WebLx,quoteFansite_2,Rediscover the romance of your heroes,Rediscover the romanc
 WebLx,quoteFansite_3,Display of weapons and armor,Display of weapons and armor
 OptionDescr,VIRTUALCORE,Virtual Core,Virtual Córe
 OptionDescr,LYOKO,Lyoko,Lyoko
-OptionDescr,RANDOM,Random,Random
-OptionDescr,HERB,Herb,Herb
+OptionDescr,RANDOM,Random,Ngẫu nhiên
+OptionDescr,HERB,Herb,Thầy Herb
 OptionDescr,SISSI,Sissi,Sissi
-OptionDescr,HERTZ,Mrs Hertz,Mrs Hertz
-OptionDescr,JIM,Jim,Jim
+OptionDescr,HERTZ,Mrs Hertz,Cô Hertz
+OptionDescr,JIM,Jim,Thầy Jim
 OptionDescr,AUCUNE,None,Không có
 OptionDescr,AUCUN,None,Không có
 OptionDescr,GARAGE,Garage Skid,Garage Skid
 OptionDescr,GARAGE_SKID,Garage Skid + Skidbladnir,Garage Skid + Skidbladnir
-OptionDescr,MAZE,Maze,Maze
-OptionDescr,DIRECTATK,Attempt direct attack,Attempt direct attack
-OptionDescr,WAITCYCLE,Wait a complete cycle of non-initiative,Wait a complete cycle of non-initiative
-OptionDescr,OLD_WAITDF_1,6 day fragments,6 day fragments
-OptionDescr,OLD_WAITDF_2,12 day fragments,12 day fragments
-OptionDescr,OLD_WAITDF_3,24 day fragments,24 day fragments
-OptionDescr,WAITDF_1,Half a day delay,Half a day delay
-OptionDescr,WAITDF_2,1 day delay,1 day delay
-OptionDescr,WAITDF_3,2 days delay,2 days delay
-OptionDescr,OLD_30MIN,30 minutes,30 minutes
-OptionDescr,OLD_6HOURS,6 hours,6 hours
-OptionDescr,OLD_12HOURS,12 hours,12 hours
-OptionDescr,DEFAULT,By Default,By Default
+OptionDescr,MAZE,Maze,Mê cung
+OptionDescr,DIRECTATK,Attempt direct attack,Cố gắng tấn công trực tiếp
+OptionDescr,WAITCYCLE,Wait a complete cycle of non-initiative,Chờ hết một chu kỳ không có thế chủ động
+OptionDescr,OLD_WAITDF_1,6 day fragments,6 mảnh ngày
+OptionDescr,OLD_WAITDF_2,12 day fragments,12 mảnh ngày
+OptionDescr,OLD_WAITDF_3,24 day fragments,24 mảnh ngày
+OptionDescr,WAITDF_1,Half a day delay,Trì hoãn nửa ngày
+OptionDescr,WAITDF_2,1 day delay,Trì hoãn 1 ngày
+OptionDescr,WAITDF_3,2 days delay,Trì hoãn 2 ngày
+OptionDescr,OLD_30MIN,30 minutes,30 phút
+OptionDescr,OLD_6HOURS,6 hours,6 giờ
+OptionDescr,OLD_12HOURS,12 hours,12 giờ
+OptionDescr,DEFAULT,By Default,Mặc định
 OptionDescr,CÓ,Yes,Có
 OptionDescr,CARTHAGE,Carthage,Carthage
 OptionDescr,SECTOR5LYOKO,Sector 5 + Lyoko,Khu vực 5 + Lyoko
@@ -12650,10 +12650,10 @@ OptionDescr,VIETERRE,"Living on Earth limited
 (Devirt with Cd: Code: Earth)","Sống trên Trái đất bị giới hạn
 (Giải ảo hóa bằng đĩa CD: Code: Earth)"
 OptionDescr,VIETERREFREE,"Living on Earth freely
-(Can fight on Lyoko and be devirted)","Living on Earth freely
-(Can fight on Lyoko and be devirted)"
-OptionDescr,ABSENT,Absent,Absent
-OptionDescr,STRANDOM,Random,Random
+(Can fight on Lyoko and be devirted)","Sống tự do trên Trái đất
+(Có thể chiến đấu trên Lyoko và bị giải ảo hóa)"
+OptionDescr,ABSENT,Absent,Vắng mặt
+OptionDescr,STRANDOM,Random,Ngẫu nhiên
 OptionDescr,STXANA,"Permanently Xanafied
 (Devirt with Cd: Code: Liberator)","Permanently Xanafied
 (Devirt with Cd: Códe: Liberator)"
@@ -12661,15 +12661,15 @@ OptionDescr,STTERRE,Normal,Bình thường
 OptionDescr,COSTS3,Basic,Cơ bản
 OptionDescr,COSTS4,Upgraded,Nâng cấp
 OptionDescr,SUPERS,"Superscan (Automatic detection, requires constant energy)","Superscan (Phát hiện tự động, yêu cầu năng lượng liên tục)"
-OptionDescr,BAL_RELAX,Relax,Relax
-OptionDescr,BAL_CLASSIC,Classic,Classic
-OptionDescr,BAL_EXPERT,Expert,Expert
+OptionDescr,BAL_RELAX,Relax,Thư giãn
+OptionDescr,BAL_CLASSIC,Classic,Cổ điển
+OptionDescr,BAL_EXPERT,Expert,Chuyên gia
 OptionDescr,MONOS,"Monoscan (Manual detection, needs Aelita to stay on Lyoko to alert)","Monoscan (Phát hiện thủ công, cần Aelita ở trên Lyoko để cảnh báo)"
 OptionDescr,creditsDESCR,Display the game's credits.,Hiển thị GHI CÔNG của trò chơi.
 OptionDescr,authorDESCR,Open the official website of Immudelki.,Mở official website of Immudelki.
 OptionDescr,titreDESCR,Open the social page of the game.,Mở social page of the game.
 OptionDescr,customModeDESCR,"You decide on all the parameters of the game, and make your own objectives. All programs are available. No game over due to loss of a Lyokowarrior.",Bạn quyết định toàn bộ các thông số của trò chơi và tự đặt ra mục tiêu cho chính mình. Tất cả chương trình đều khả dụng. Không bị kết thúc trò chơi (Game Over) khi mất chiến binh Lyoko.
-OptionDescr,customModeCreateDESCR,Create a game with your own parameters.,Create a game with your own parameters.
+OptionDescr,customModeCreateDESCR,Create a game with your own parameters.,Tạo một trò chơi với các thông số của riêng bạn.
 OptionDescr,customModeQuickDESCR,Play directly with common parameters.,Chơi directly with common parameters.
 OptionDescr,changelogDESCR,(Web document) Get access to all the current tasks of the game's creator.,Xem các mục nhật ký thay đổi và nhiệm vụ của người sáng tạo game.
 OptionDescr,discordDESCR,"Join the international community!
@@ -12677,13 +12677,13 @@ Other fans are waiting for you!",Tham gia cộng đồng quốc tế! Những ng
 OptionDescr,patreonDESCR,"Making a game and distributing it for free is expensive.
 Support the project via Patreon!",Xây dựng và phân phối trò chơi miễn phí rất tốn kém. Hãy ủng hộ dự án qua Patreon!
 OptionDescr,storyModeDESCR,"Through a story which is in line with the continuity of the original series, discover every function of the game and more!
-Carried by exclusive recordings of official voice actors from the series!","Through a story which is in line with the continuity of the original series, discover every function of the game and more!
-Carried by exclusive recordings of official voice actors from the series!"
+Carried by exclusive recordings of official voice actors from the series!","Trải qua câu chuyện tiếp nối loạt phim hoạt hình gốc, khám phá mọi tính năng của trò chơi và hơn thế nữa!
+Được lồng tiếng độc quyền bởi các diễn viên lồng tiếng chính thức của loạt phim!"
 OptionDescr,continuerDESCR,Continue from the latest game save.,Tiếp tục from the latest game save.
 OptionDescr,newGameDESCR,"Play to a rich and original story, linked to the events of the main series.","Chơi to a rich and original story, linked to the events of the main series."
 OptionDescr,newGameContinueDESCR,Continue the story from unlocked chapters.,Tiếp tục câu chuyện từ các chương đã mở khóa.
 OptionDescr,chapterSelectionDESCR,Continue the story from unlocked chapters.,Tiếp tục câu chuyện từ các chương đã mở khóa.
-OptionDescr,loadaGameDESCR,Load a saved game.,Load a saved game.
+OptionDescr,loadaGameDESCR,Load a saved game.,Tải tệp lưu trò chơi.
 OptionDescr,loadSaveDESCR,Load a game saved manually.,Tải một màn chơi đã lưu thủ công.
 OptionDescr,loadAutosaveDESCR,Load a game saved automatically.,Tải một màn chơi đã lưu tự động.
 OptionDescr,autoConnexionLCDESCR,connection enabled on game start,connection da kich hoat on game start
@@ -12704,9 +12704,9 @@ OptionDescr,xanaReactivityDESCR,Xana's speed to react to your action,Tốc độ
 OptionDescr,xanaFirstAwakeningDESCR,Delay before first awakening of Xana on game start,Thời gian trì hoãn trước khi XANA thức tỉnh lần đầu tiên khi bắt đầu trò chơi.
 OptionDescr,xanaMonsterMatDESCR,Probability to materialize monsters on earth when activating a tower,Probability to materialize quai vat on earth when activating a thap
 OptionDescr,xanaEarthquakeDESCR,Probability to generate earthquakes when activating tower,Probability to generate earthquakes when activating thap
-OptionDescr,xanaMilitarySatDESCR,Probability to hack military satellite to use its lazer when activating tower,Probability to hack military satellite to use its lazer when activating thap
-OptionDescr,xanaDeadlyInterface,-,giao diện chết người
-OptionDescr,xanaMeteorDESCR,"Probability to hack a military satellite, and direct a meteor to earth when activating tower","Probability to hack a military satellite, and direct a meteor to earth when activating thap"
+OptionDescr,xanaMilitarySatDESCR,Probability to hack military satellite to use its lazer when activating tower,Khả năng hack vệ tinh quân sự để sử dụng tia laser của nó khi tháp được kích hoạt
+OptionDescr,xanaDeadlyInterface,-,giao diện chết chóc
+OptionDescr,xanaMeteorDESCR,"Probability to hack a military satellite, and direct a meteor to earth when activating tower",Khả năng hack vệ tinh quân sự và định hướng một thiên thạch lao xuống Trái Đất khi tháp được kích hoạt
 OptionDescr,xanaHumanXanatifDESCR,Probability to xanafie a human when activating a tower,Probability to xanafie a human when activating a thap
 OptionDescr,xanaSwarmXanatifDESCRold,"Probability to xanafie a swarm (crows, rats) when activating a tower","Probability to xanafie a swarm (crows, rats) when activating a thap"
 OptionDescr,xanaSwarmXanatifDESCR,Probability to xanafie a swarm (rats) when activating a tower,Probability to xanafie a swarm (rats) when activating a thap
@@ -12750,27 +12750,27 @@ OptionDescr,xanaSeaTrapDESCR,Probability to use a Sea Trap (caught skidbladnir i
 OptionDescr,xanaDigitalSeaRiseDESCR,Probability to rise up the digital sea in the sectors,Probability to rise up the digital sea in the khu vucs
 OptionDescr,xanaDoubleTowerDESCR,Probability to create fake tower to trap Lyokowarriors,Probability to create fake thap to trap Lyokowarriors
 OptionDescr,xanaReplikaTranslateEnemiesDESCR,-,-
-OptionDescr,xanaPreserveMonstersDESCR,Retains monsters (even inactive ones) after all Xana towers have been deactivated.,Retains quai vat (even inactive ones) after all Xana thaps have been deactivated.
-OptionDescr,dnaAlterationsDESCR,Probability for Lyokowarriors's DNA to be altered during virtualization,Probability for Lyokowarriors's DNA to be altered during ao hoa
+OptionDescr,xanaPreserveMonstersDESCR,Retains monsters (even inactive ones) after all Xana towers have been deactivated.,Giữ lại quái vật (ngay cả những con không hoạt động) sau khi tất cả các tháp của XANA đã bị vô hiệu hóa.
+OptionDescr,dnaAlterationsDESCR,Probability for Lyokowarriors's DNA to be altered during virtualization,Khả năng DNA của các chiến binh Lyoko bị biến đổi trong quá trình ảo hóa
 OptionDescr,dnaAlterationFusionDESCR,Lyokowarrior's DNA can be fused with animal hair left on clothing,DNA của các chiến binh Lyoko có thể bị dung hợp với lông động vật dính trên quần áo.
 OptionDescr,dnaAlterationConfusionDESCR,Lyokowarrior's DNA can be confused for that of another,DNA của một chiến binh Lyoko có thể bị nhầm lẫn với người khác.
 OptionDescr,dnaAlterationInversionDESCR,Lyokowarrior's DNA can be inverted for that of another,DNA của một chiến binh Lyoko có thể bị hoán đổi với người khác.
 OptionDescr,dnaAlterationDissociationDESCR,Aelita's DNA can be dissociated,DNA của Aelita có thể bị phân tách.
 OptionDescr,defectiveOSDESCR,"Probablity for the interface of the SC to shutdown, requiring manual reboot through the laptop.","Xác suất giao diện của siêu máy tính bị sập, yêu cầu khởi động lại thủ công bằng laptop."
-OptionDescr,virtBugsDESCR,"Probability for virtualization system to bug, making the lyokowarriors to appear at random places","Probability for ao hoa he thong to bug, making the lyokowarriors to appear at random places"
+OptionDescr,virtBugsDESCR,"Probability for virtualization system to bug, making the lyokowarriors to appear at random places","Khả năng hệ thống ảo hóa gặp lỗi, khiến các chiến binh Lyoko xuất hiện ở những địa điểm ngẫu nhiên"
 OptionDescr,futureFlashDESCR,"Randomly activates during battle when Odd has one ally or less. 
 Makes him vulnerable for 1 turn in exchange for 2 free turns afterwards.",Tự động kích hoạt ngẫu nhiên trong trận chiến khi Odd chỉ còn từ một đồng minh trở xuống. Làm cho Odd dễ bị tổn thương trong 1 lượt để đổi lấy 2 lượt đi tự do sau đó.
 OptionDescr,towerScanProgramDESCR,Program used to scan tower activity,Chương trình dùng để quét hoạt động của tháp
-OptionDescr,overvInstalledDESCR,Overvehicles installed in the supercomputer's memory on startup.,Overvehicles installed in sieu may tinh's memory on startup.
-OptionDescr,isWIP_old,[ WORK IN PROGRESS ],[ WORK IN PROGRESS ]
+OptionDescr,overvInstalledDESCR,Overvehicles installed in the supercomputer's memory on startup.,Siêu phương tiện được cài đặt sẵn vào bộ nhớ của siêu máy tính khi khởi động.
+OptionDescr,isWIP_old,[ WORK IN PROGRESS ],[ ĐANG PHÁT TRIỂN ]
 OptionDescr,isWIP,[ REALWORLD INTERACTION NOT YET AVAILABLE ],[ REALWORLD INTERACTION KHÔNGT YET KHA DỪNG ]
 OptionDescr,groupgmapAtk,"The attack acts as a countdown to disaster.
 It can be slowed down by giving an ally the laptop to connect to Kadic's antenna.",Cuộc tấn công đóng vai trò như một đồng hồ đếm ngược dẫn đến thảm họa. Nó có thể bị làm chậm bằng cách đưa laptop cho một đồng minh để kết nối với ăng-ten của Kadic.
 OptionDescr,grouplabAtkWIP,"The attack act as a countdown towards disaster.
 It cannot be slowed down. 
-It can delay (or block) the arrival of Lyokowarriors to the factory.","The attack act as a countdown towards disaster.
-It cannot be slowed down. 
-It can delay (or block) the arrival of Lyokowarriors to nha may."
+It can delay (or block) the arrival of Lyokowarriors to the factory.","Cuộc tấn công đóng vai trò như đếm ngược dẫn đến thảm họa.
+Nó không thể bị làm chậm.
+Nó có thể trì hoãn (hoặc chặn) các chiến binh Lyoko đến nhà máy."
 OptionDescr,grouplabAtk,"The attacker is trying to reach the lab.
 Block the elevator and/or keep an ally in the lab to create a diversion and wake you up if you're knocked out.","The attacker is trying to reach phong thi nghiem.
 Block the elevator and/or keep an ally in phong thi nghiem to create a diversion and wake you up if you're knocked out."
@@ -12884,91 +12884,91 @@ OptionDescr,OLD_timeBeforeRevirtDESCR,Time before LyokoWarriors can be revirtual
 OptionDescr,OLD_timeBeforeRebootDESCR,Time before the reboot program can be recompiled.,Time before the reboot chuong trinh can be recompiled.
 OptionDescr,OLD_timeBeforeRttpDESCR,Time before the return to the past program can be recompiled.,Time before the return to the past chuong trinh can be recompiled.
 OptionDescr,OLD_timeBeforeMultiScanDESCR,Time before the simultaneous tower activation program (multiscan) can be recompiled.,Time before the simultaneous thap activation chuong trinh (multiscan) can be recompiled.
-OptionDescr,OLD_timeBeforeVehiclesDESCR,Time before the overvehicles programs can be recompiled.,Time before the overvehicles chuong trinhs can be recompiled.
+OptionDescr,OLD_timeBeforeVehiclesDESCR,Time before the overvehicles programs can be recompiled.,Thời gian trước khi các chương trình siêu phương tiện có thể được biên dịch lại.
 OptionDescr,OLD_waitTimeDESCR,Click here to wait until the next custom or auto alarm (superscan etc...) alert happens,Nhap vao here to wait until the next custom or auto alarm (superscan etc...) alert happens
-OptionNames,creerPar,created by,created by
+OptionNames,creerPar,created by,được tạo bởi
 OptionNames,storyMode,Story Mode,Chế độ cốt truyện
-OptionNames,storyModeMain,Main Story,Main Story
-OptionNames,storyModeCarthageOLD,Carthage Story,Carthage Story
-OptionNames,storyModeCarthage,Project Carthage,Project Carthage
+OptionNames,storyModeMain,Main Story,Cốt truyện chính
+OptionNames,storyModeCarthageOLD,Carthage Story,Cốt truyện Carthage
+OptionNames,storyModeCarthage,Project Carthage,Dự án Carthage
 OptionNames,customMode,Custom Mode,Chế độ tự chọn
 OptionNames,customModeCreate,New Game,Trò chơi mới
-OptionNames,$presetDefaultB,Basic parameters,Basic parameters
+OptionNames,$presetDefaultB,Basic parameters,Thông số cơ bản
 OptionNames,$presetModifiedB,Modified parameters,Mởdified parameters
-OptionNames,$presetDefault,By Default,By Default
+OptionNames,$presetDefault,By Default,Mặc định
 OptionNames,$presetModified,Modified,Mởdified
-OptionNames,customconfig,Custom config,Custom config
+OptionNames,customconfig,Custom config,Cấu hình tùy chỉnh
 OptionNames,THOÁT,quit,THOÁT GAME
 OptionNames,credits,credits,GHI CÔNG
 OptionNames,quitterp,quit game,Thoát game
-OptionNames,startGame,start,start
+OptionNames,startGame,start,bắt đầu
 OptionNames,back,back,QUAY LẠI
 OptionNames,connexionLyokoauto,auto Lyoko Connection,auto Lyoko Cónnection
 OptionNames,connexionCarthageauto,auto Carthage Connection,auto Carthage Cónnection
-OptionNames,configtype,config. type,config. type
-OptionNames,configgeneral,config. generale,config. generale
-OptionNames,configxana,config. xana,config. xana
+OptionNames,configtype,config. type,loại cấu hình
+OptionNames,configgeneral,config. generale,cấu hình chung
+OptionNames,configxana,config. xana,cấu hình xana
 OptionNames,autoConnexionLC,auto connection,tự động kết nối
 OptionNames,autoConnexionLyoko,auto connection lyoko,tự động kết nối lyoko
 OptionNames,autoConnexionCoeurVirtuel,auto connection virtual heart,tự động kết nối lõi ảo
 OptionNames,display,display,Hiển thị
 OptionNames,accessibility,accessibility,Hỗ trợ
-OptionNames,dataSecurity,anonymous data,anonymous data
-OptionNames,vmapSkid,vmap skid,vmap skid
+OptionNames,dataSecurity,anonymous data,dữ liệu ẩn danh
+OptionNames,vmapSkid,vmap skid,bản đồ ảo skid
 OptionNames,automatedSystems,automated systems,Hệ thống tự động
 OptionNames,playerProfile,player profile,Hồ sơ người chơi
 OptionNames,mapping,controls,Điều khiển
 OptionNames,controlUp,up,up
-OptionNames,controlDown,down,down
-OptionNames,controlRight,right,right
-OptionNames,controlLeft,left,left
-OptionNames,controlRun,run,run
-OptionNames,controlCrouch,crouch,crouch
-OptionNames,controlLeave,exit screen,exit screen
-OptionNames,controlInteract,interact,interact
-OptionNames,controlInventory,inventory,inventory
-OptionNames,fullscreen,Fullscreen,Fullscreen
+OptionNames,controlDown,down,đi xuống
+OptionNames,controlRight,right,sang phải
+OptionNames,controlLeft,left,sang trái
+OptionNames,controlRun,run,chạy
+OptionNames,controlCrouch,crouch,ngồi
+OptionNames,controlLeave,exit screen,thoát màn hình
+OptionNames,controlInteract,interact,tương tác
+OptionNames,controlInventory,inventory,túi đồ
+OptionNames,fullscreen,Fullscreen,Toàn màn hình
 OptionNames,countdownDesign,Countdown variation,Cóuntdown variation
-OptionNames,quality,quality,quality
-OptionNames,motionBlur,motion blur,motion blur
-OptionNames,subtitles,subtitles,subtitles
-OptionNames,skidForceLoc_OnExitRK,self-localization on replika exit,self-localization on replika exit
-OptionNames,skidForceLoc_OnExitSEA,self-localization on sea exit,self-localization on sea exit
-OptionNames,autoCloseTransf,self-closing transfer bar,self-closing transfer bar
-OptionNames,autoCloseLink,self-closing link window,self-closing link window
-OptionNames,autoCloseNavskid,self-closing navskid window,self-closing navskid window
-OptionNames,timeMarkerNotifs,agenda notifications,agenda notifications
-OptionNames,bookTextHelper,book reading help,book reading help
-OptionNames,keepCmdInTerminal,keep erroneous commands,keep erroneous commands
+OptionNames,quality,quality,chất lượng
+OptionNames,motionBlur,motion blur,làm mờ chuyển động
+OptionNames,subtitles,subtitles,phụ đề
+OptionNames,skidForceLoc_OnExitRK,self-localization on replika exit,tự định vị khi thoát khỏi replika
+OptionNames,skidForceLoc_OnExitSEA,self-localization on sea exit,tự định vị khi thoát khỏi biển
+OptionNames,autoCloseTransf,self-closing transfer bar,tự đóng thanh chuyển dịch
+OptionNames,autoCloseLink,self-closing link window,tự đóng cửa sổ liên kết
+OptionNames,autoCloseNavskid,self-closing navskid window,tự đóng cửa sổ navskid
+OptionNames,timeMarkerNotifs,agenda notifications,thông báo lịch trình
+OptionNames,bookTextHelper,book reading help,hỗ trợ đọc sách
+OptionNames,keepCmdInTerminal,keep erroneous commands,giữ lại các lệnh bị lỗi
 OptionNames,yellowWarningDisplay,warnings display type,canh baos display type
-OptionNames,autoRotateVmap,self-rotating vmap,self-rotating vmap
+OptionNames,autoRotateVmap,self-rotating vmap,tự xoay bản đồ ảo
 OptionNames,autoComCardVmap,self-opening comcards,self-moing comcards
-OptionNames,sizeInterfaces,interface sizes,interface sizes
-OptionNames,fpsRamCounter,fps / ram counter,fps / ram counter
-OptionNames,realcamSensibility,camera sensitivity,camera sensitivity
-OptionNames,camSensibility,vmap camera sensitivity,vmap camera sensitivity
-OptionNames,vmapMotionBlur,vmap motion blur,vmap motion blur
-OptionNames,holomapNoise,holomap noise (interface),holomap noise (interface)
-OptionNames,masterVolume,main volume,main volume
-OptionNames,musicVolume,music volume,music volume
-OptionNames,sfxVolume,sfx volume,sfx volume
-OptionNames,voicesLangage,voices,voices
-OptionNames,voiceVolume,voice volume,voice volume
+OptionNames,sizeInterfaces,interface sizes,kích thước giao diện
+OptionNames,fpsRamCounter,fps / ram counter,bộ đếm fps / ram
+OptionNames,realcamSensibility,camera sensitivity,độ nhạy camera
+OptionNames,camSensibility,vmap camera sensitivity,độ nhạy camera bản đồ ảo
+OptionNames,vmapMotionBlur,vmap motion blur,làm mờ chuyển động bản đồ ảo
+OptionNames,holomapNoise,holomap noise (interface),nhiễu bản đồ holo (giao diện)
+OptionNames,masterVolume,main volume,âm lượng tổng
+OptionNames,musicVolume,music volume,âm lượng nhạc
+OptionNames,sfxVolume,sfx volume,âm lượng hiệu ứng
+OptionNames,voicesLangage,voices,giọng nói
+OptionNames,voiceVolume,voice volume,âm lượng giọng nói
 OptionNames,voiceLangage,voice language,Ngôn ngữ giọng nói
 OptionNames,textLangage,text language,Ngôn ngữ văn bản
 OptionNames,audio,audio,Âm thanh
 OptionNames,language,language,Ngôn ngữ
-OptionNames,parenthesisMode,parenthesis mode,parenthesis mode
-OptionNames,camShakeElevator,elevator camera shake,elevator camera shake
-OptionNames,displayReadmeShallPauseGame,help pause mode,help pause mode
-OptionNames,customGameTooltips,show tooltips,show tooltips
-OptionNames,coreWinAnim,animation - core window,animation - core window
-OptionNames,resetProfile,reset player profile,reset player profile
-OptionNames,resetOptions,reset all options,reset all options
-OptionNames,resetWindowsPos,reset windows,reset windows
+OptionNames,parenthesisMode,parenthesis mode,chế độ ngoặc đơn
+OptionNames,camShakeElevator,elevator camera shake,rung camera thang máy
+OptionNames,displayReadmeShallPauseGame,help pause mode,tạm dừng khi xem hướng dẫn
+OptionNames,customGameTooltips,show tooltips,hiển thị chú giải công cụ
+OptionNames,coreWinAnim,animation - core window,hiệu ứng cửa sổ lõi
+OptionNames,resetProfile,reset player profile,đặt lại hồ sơ người chơi
+OptionNames,resetOptions,reset all options,đặt lại tất cả tùy chọn
+OptionNames,resetWindowsPos,reset windows,đặt lại cửa sổ
 OptionNames,screenFolder,screenshots,Ảnh chụp màn hình
-OptionNames,screenshot,screenshot,screenshot
-OptionNames,saveWindows,save windows,save windows
+OptionNames,screenshot,screenshot,chụp ảnh màn hình
+OptionNames,saveWindows,save windows,lưu cửa sổ
 OptionNames,newGame,new game,Trò chơi mới
 OptionNames,newGameContinue,continue story...,tiep tuc story...
 OptionNames,chapterSelection,chapters selection,Chọn chương
@@ -12977,15 +12977,15 @@ OptionNames,loadSave,Load a Save,Tải file lưu
 OptionNames,loadAutosave,Load an Autosave,Tải tự động lưu
 OptionNames,TIẾP TỤC,Continue,TIẾP TỤC
 OptionNames,TÙY CHỌN,TÙY CHỌN,TÙY CHỌN
-OptionNames,inventory,inventory,inventory
+OptionNames,inventory,inventory,túi đồ
 OptionNames,agenda,agenda,LỊCH TRÌNH
-OptionNames,trombinoscope,album,album
-OptionNames,timeline,timeline,timeline
-OptionNames,siteOfficiel,Official website,Official website
-OptionNames,showOptionsInStudy,show options under consideration,show options under consideration
+OptionNames,trombinoscope,album,album ảnh
+OptionNames,timeline,timeline,dòng thời gian
+OptionNames,siteOfficiel,Official website,Trang web chính thức
+OptionNames,showOptionsInStudy,show options under consideration,hiển thị các tùy chọn đang xem xét
 OptionNames,hideOptionsInStudy,hide options under consideration,ẩn các tùy chọn đang xem xét
 OptionNames,overviewMode,overview,tổng quan
-OptionNames,classicviewMode,classic view,classic view
+OptionNames,classicviewMode,classic view,chế độ xem cổ điển
 OptionNames,customGameConfig_general,general,Cài đặt chung
 OptionNames,customGameConfig_startup,startup,Khởi đầu
 OptionNames,customGameConfig_xanaLyoko,xana lyoko,XANA Lyoko
@@ -13000,82 +13000,82 @@ OptionNames,gameBalance,Difficulty,Độ khó
 OptionNames,battleTimerSpeed,Battle Turn Speed,Tốc độ lượt trận đấu
 OptionNames,macrocodeRulesExceptions,Macrocode Exceptions,Ngoại lệ quy tắc Macrocode
 OptionNames,xanaMonsterMat,materialized monster,da vat chat hoa quai vat
-OptionNames,xanaMilitarySat,satellite - lazer,satellite - lazer
-OptionNames,xanaDeadlyInterface,deadly interface,deadly interface
-OptionNames,xanaMeteor,meteor,meteor
-OptionNames,xanaHumanXanatif,xanafication,xanafication
-OptionNames,xanaBeastXanatif,dangerous beast,dangerous beast
-OptionNames,xanaSwarmXanatif,deadly swarm,deadly swarm
-OptionNames,xanaObjectXanatif,cursed object,cursed object
-OptionNames,xanaPolymorphicClone,polymorphic clone,polymorphic clone
-OptionNames,xanaPoltergeist,poltergeist,poltergeist
-OptionNames,xanaZombification,zombification,zombification
-OptionNames,xanaWeatherDisaster,weather disaster,weather disaster
-OptionNames,xanaElectricSphere,electric sphere,electric sphere
-OptionNames,xanaClouds,electric cloud,electric cloud
-OptionNames,xanaToxicGaz,toxic gas,toxic gas
-OptionNames,xanaMagneticFieldOverload,magnetic field,magnetic field
-OptionNames,xanaSismic,earthquakes,earthquakes
-OptionNames,xanaZeroGravity,zero gravity,zero gravity
-OptionNames,xanaNuclearOverload,power plant overload,power plant overload
-OptionNames,xanaSuicideAutobus,suicide bus,suicide bus
-OptionNames,xanaRailwayAccident,railway accident,railway accident
-OptionNames,xanaFighterAircraft,fighter aircraft,fighter aircraft
-OptionNames,rogueMarabounta,rogue marabounta,rogue marabounta
-OptionNames,xanaMIB,xanafied man in black,xanafied man in black
-OptionNames,xanaTeacher,xanafied teacher,xanafied teacher
-OptionNames,xanaStudent,xanafied student,xanafied student
-OptionNames,xanaCriminal,xanafied criminal,xanafied criminal
-OptionNames,xanaCrows,xanafied crows,xanafied crows
-OptionNames,xanaRats,xanafied rats,xanafied rats
-OptionNames,xanaWolf,xanafied wolves,xanafied wolves
-OptionNames,xanaBoar,xanafied boar,xanafied boar
-OptionNames,xanaHornets,xanafied hornets,xanafied hornets
-OptionNames,xanaSamuraiArmor,xanafied samurai armor,xanafied samurai armor
+OptionNames,xanaMilitarySat,satellite - lazer,vệ tinh quân sự - laser
+OptionNames,xanaDeadlyInterface,deadly interface,giao diện chết chóc
+OptionNames,xanaMeteor,meteor,thiên thạch
+OptionNames,xanaHumanXanatif,xanafication,kiểm soát con người
+OptionNames,xanaBeastXanatif,dangerous beast,thú dữ nguy hiểm
+OptionNames,xanaSwarmXanatif,deadly swarm,đàn ong chết chóc
+OptionNames,xanaObjectXanatif,cursed object,vật thể nguyền rủa
+OptionNames,xanaPolymorphicClone,polymorphic clone,bản sao biến hình
+OptionNames,xanaPoltergeist,poltergeist,yêu quái phá hoại
+OptionNames,xanaZombification,zombification,hóa thây ma
+OptionNames,xanaWeatherDisaster,weather disaster,thảm họa thời tiết
+OptionNames,xanaElectricSphere,electric sphere,quả cầu điện
+OptionNames,xanaClouds,electric cloud,mây điện
+OptionNames,xanaToxicGaz,toxic gas,khí độc
+OptionNames,xanaMagneticFieldOverload,magnetic field,quá tải từ trường
+OptionNames,xanaSismic,earthquakes,động đất
+OptionNames,xanaZeroGravity,zero gravity,không trọng lực
+OptionNames,xanaNuclearOverload,power plant overload,quá tải nhà máy điện
+OptionNames,xanaSuicideAutobus,suicide bus,xe buýt lao tự sát
+OptionNames,xanaRailwayAccident,railway accident,tai nạn đường sắt
+OptionNames,xanaFighterAircraft,fighter aircraft,máy bay chiến đấu
+OptionNames,rogueMarabounta,rogue marabounta,đàn kiến marabounta nổi loạn
+OptionNames,xanaMIB,xanafied man in black,áo đen bị kiểm soát
+OptionNames,xanaTeacher,xanafied teacher,giáo viên bị kiểm soát
+OptionNames,xanaStudent,xanafied student,học sinh bị kiểm soát
+OptionNames,xanaCriminal,xanafied criminal,tội phạm bị kiểm soát
+OptionNames,xanaCrows,xanafied crows,đàn quạ bị kiểm soát
+OptionNames,xanaRats,xanafied rats,đàn chuột bị kiểm soát
+OptionNames,xanaWolf,xanafied wolves,đàn sói bị kiểm soát
+OptionNames,xanaBoar,xanafied boar,lợn rừng bị kiểm soát
+OptionNames,xanaHornets,xanafied hornets,đàn ong bắp cày bị kiểm soát
+OptionNames,xanaSamuraiArmor,xanafied samurai armor,bộ giáp samurai bị kiểm soát
 OptionNames,xanaFactoryRobot,xanafied factory robot,xanafied nha may robot
-OptionNames,xanaMovieRobot,xanafied movie robot,xanafied movie robot
-OptionNames,xanaKiwi2,xanafied kiwi 2.0,xanafied kiwi 2.0
+OptionNames,xanaMovieRobot,xanafied movie robot,robot đóng phim bị kiểm soát
+OptionNames,xanaKiwi2,xanafied kiwi 2.0,chó kiwi 2.0 bị kiểm soát
 OptionNames,aelitaLifeOnStartup,aelita,aelita
 OptionNames,oddOnStartup,odd,odd
 OptionNames,ulrichOnStartup,ulrich,ulrich
 OptionNames,yumiOnStartup,yumi,yumi
 OptionNames,williamOnStartup,william,william
 OptionNames,lyokoTeamOnStartup,virtualized team,da ao hoa team
-OptionNames,earthTeamOnStartup,terrestrial team,terrestrial team
-OptionNames,teamMissionPos,team position,team position
-OptionNames,franzHopperAliveOLD,franz hopper alive,franz hopper alive
+OptionNames,earthTeamOnStartup,terrestrial team,đội ngũ mặt đất
+OptionNames,teamMissionPos,team position,vị trí của đội
+OptionNames,franzHopperAliveOLD,franz hopper alive,franz hopper còn sống
 OptionNames,franzHopperAlive,fall rescue,giải cứu khi rơi
 OptionNames,lyokoOnStartup,lyoko,lyoko
-OptionNames,lyokoDesertOnStartup,desert,desert
-OptionNames,lyokoForestOnStartup,forest,forest
-OptionNames,lyokoIceOnStartup,ice,ice
-OptionNames,lyokoMountainOnStartup,mountain,mountain
+OptionNames,lyokoDesertOnStartup,desert,sa mạc
+OptionNames,lyokoForestOnStartup,forest,khu rừng
+OptionNames,lyokoIceOnStartup,ice,băng giá
+OptionNames,lyokoMountainOnStartup,mountain,núi non
 OptionNames,sector5ExtrasOnStartup,5th sector extras,khu vực 5 mở rộng
 OptionNames,skidOnStartup,skidbladnir,skidbladnir
 OptionNames,replikaDiscovered,replika discovered,phát hiện replika
 OptionNames,hiddenHyperscanReplikas,secret replikas,replika bí mật
-OptionNames,earthTroubles,earth troubles,earth troubles
-OptionNames,dnaFusionV,dna fused,dna fused
+OptionNames,earthTroubles,earth troubles,rắc rối trên Trái Đất
+OptionNames,dnaFusionV,dna fused,dna bị hợp nhất
 OptionNames,virtDevirtCodesCarthage,virt/devirt codes obtained,có mã ảo hóa/giải ảo hóa
 OptionNames,diaryDecyphered,hopper's diary decyphered,giải mã nhật ký hopper
-OptionNames,infiniteHolidays,infinite holidays,infinite holidays
-OptionNames,headTeacher,head teacher,head teacher
-OptionNames,classRepresentative,class representative,class representative
+OptionNames,infiniteHolidays,infinite holidays,kỳ nghỉ vô tận
+OptionNames,headTeacher,head teacher,hiệu trưởng
+OptionNames,classRepresentative,class representative,đại diện lớp
 OptionNames,xanaFirstAwakening,xana awakening,đánh thức xana
-OptionNames,futureFlash,future flash,future flash
+OptionNames,futureFlash,future flash,tia sáng tương lai
 OptionNames,towerScanProgram,towers program,tháp chương trình
 OptionNames,overvInstalled,overvehicles,siêu phương tiện
-OptionNames,dnaAlterations,dna alterations,dna alterations
-OptionNames,dnaAlterationFusion,dna fusion,dna fusion
-OptionNames,dnaAlterationConfusion,DNA confusion,DNA confusion
-OptionNames,dnaAlterationInversion,DNA inversion,DNA inversion
-OptionNames,dnaAlterationDissociation,DNA dissociation,DNA dissociation
-OptionNames,dnaAlterationEarthCode,earth code bug,earth code bug
+OptionNames,dnaAlterations,dna alterations,biến đổi dna
+OptionNames,dnaAlterationFusion,dna fusion,hợp nhất dna
+OptionNames,dnaAlterationConfusion,DNA confusion,dna bị hỗn loạn
+OptionNames,dnaAlterationInversion,DNA inversion,dna bị đảo ngược
+OptionNames,dnaAlterationDissociation,DNA dissociation,dna bị phân tách
+OptionNames,dnaAlterationEarthCode,earth code bug,lỗi mã trái đất
 OptionNames,virtBugs,virtualization bugs,ao hoa bugs
-OptionNames,overvBugs,overvehicles bugs,overvehicles bugs
-OptionNames,defectiveOS,defective O.S.,defective O.S.
+OptionNames,overvBugs,overvehicles bugs,lỗi siêu phương tiện
+OptionNames,defectiveOS,defective O.S.,hệ điều hành lỗi
 OptionNames,OLD_xanaVirtManipulation,virtualization manipulation,ao hoa manipulation
-OptionNames,OLD_xanaVehicleManipulation,vehicles mater manipulation,vehicles mater manipulation
+OptionNames,OLD_xanaVehicleManipulation,vehicles mater manipulation,thao túng vật chất xe
 OptionNames,xanaMonsterQuantity,monster quantity,Số lượng quái vật
 OptionNames,xanaReplikaQuantity,replika quantity,Số lượng Replika
 OptionNames,xanaEarthAttacks,earth attacks,Tấn công Trái Đất
@@ -13091,9 +13091,9 @@ OptionNames,xanaScyphozoaXanafie,xanafying scyphozoa,Scyphozoa kiểm soát
 OptionNames,xanaScyphozoaSteal,thief scyphozoa,Scyphozoa hút năng lượng
 OptionNames,xanaGuardianUse,guardian,Người bảo vệ
 OptionNames,xanaPolymorphUse,polymorph,Bản sao biến hình
-OptionNames,xanaKolossusUse,kolossus,Kolossus
-OptionNames,xanaKalamarUse,kalamar,Kalamar
-OptionNames,xanaAnthozoaUse,anthozoa,Anthozoa
+OptionNames,xanaKolossusUse,kolossus,kolossus
+OptionNames,xanaKalamarUse,kalamar,kalamar
+OptionNames,xanaAnthozoaUse,anthozoa,anthozoa
 OptionNames,xanaSeaTrap,sea trap,Bẫy biển
 OptionNames,xanaDigitalSeaRise,digital sea rise,Biển kỹ thuật số dâng cao
 OptionNames,xanaDoubleTower,trap tower,Tháp bẫy
