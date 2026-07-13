@@ -34,6 +34,9 @@ def main():
         bep_dir = os.path.join(game_dir, "BepInEx")
         if os.path.exists(bep_dir):
             for root, dirs, files in os.walk(bep_dir):
+                # Bỏ qua thư mục cache tạm của Harmony
+                if 'cache' in dirs:
+                    dirs.remove('cache')
                 for file in files:
                     abs_path = os.path.join(root, file)
                     rel_path = os.path.relpath(abs_path, game_dir)
