@@ -122,6 +122,18 @@ namespace IFSCL.LocalizationPlugin
                     __result = "Dự án Việt Hóa phi lợi nhuận bởi Khanh_Vu_209";
                     return false; // Bỏ qua hàm gốc
                 }
+
+                // Sửa lỗi NOTFOUND cho oui/non ở màn hình tự chọn
+                if (idLower == "oui")
+                {
+                    __result = "BẬT";
+                    return false;
+                }
+                if (idLower == "non")
+                {
+                    __result = "TẮT";
+                    return false;
+                }
             }
             return true; // Chạy tiếp hàm dịch gốc cho các khóa khác
         }

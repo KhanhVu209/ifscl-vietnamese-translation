@@ -12668,7 +12668,7 @@ OptionDescr,MONOS,"Monoscan (Manual detection, needs Aelita to stay on Lyoko to 
 OptionDescr,creditsDESCR,Display the game's credits.,Hiển thị GHI CÔNG của trò chơi.
 OptionDescr,authorDESCR,Open the official website of Immudelki.,Mở official website of Immudelki.
 OptionDescr,titreDESCR,Open the social page of the game.,Mở social page of the game.
-OptionDescr,customModeDESCR,"You decide on all the parameters of the game, and make your own objectives. All programs are available. No game over due to loss of a Lyokowarrior.","You decide on all the parameters of the game, and make your own objectives. All chuong trinhs are kha dung. Không game over due to loss of a Lyokowarrior."
+OptionDescr,customModeDESCR,"You decide on all the parameters of the game, and make your own objectives. All programs are available. No game over due to loss of a Lyokowarrior.",Bạn quyết định toàn bộ các thông số của trò chơi và tự đặt ra mục tiêu cho chính mình. Tất cả chương trình đều khả dụng. Không bị kết thúc trò chơi (Game Over) khi mất chiến binh Lyoko.
 OptionDescr,customModeCreateDESCR,Create a game with your own parameters.,Create a game with your own parameters.
 OptionDescr,customModeQuickDESCR,Play directly with common parameters.,Chơi directly with common parameters.
 OptionDescr,changelogDESCR,(Web document) Get access to all the current tasks of the game's creator.,Xem các mục nhật ký thay đổi và nhiệm vụ của người sáng tạo game.
@@ -12774,7 +12774,7 @@ It can delay (or block) the arrival of Lyokowarriors to nha may."
 OptionDescr,grouplabAtk,"The attacker is trying to reach the lab.
 Block the elevator and/or keep an ally in the lab to create a diversion and wake you up if you're knocked out.","The attacker is trying to reach phong thi nghiem.
 Block the elevator and/or keep an ally in phong thi nghiem to create a diversion and wake you up if you're knocked out."
-OptionDescr,grouphasSubSelector,Hold down the option to open the sub-options.,Hold down the option to mo the sub-options.
+OptionDescr,grouphasSubSelector,Hold down the option to open the sub-options.,Nhấn giữ tùy chọn để mở rộng các tùy chọn phụ.
 OptionDescr,addAchallengeDESCR,add a new challenge,Thêm một thử thách mới.
 OptionDescr,challengeDESCR,challenge:,Thử thách:
 OptionDescr,aelitaLifeOnStartupDESCR,Aelita's state on startup,Trạng thái của Aelita khi bắt đầu trò chơi
@@ -12892,7 +12892,7 @@ OptionNames,storyModeMain,Main Story,Main Story
 OptionNames,storyModeCarthageOLD,Carthage Story,Carthage Story
 OptionNames,storyModeCarthage,Project Carthage,Project Carthage
 OptionNames,customMode,Custom Mode,Chế độ tự chọn
-OptionNames,customModeCreate,New Game,New Game
+OptionNames,customModeCreate,New Game,Trò chơi mới
 OptionNames,$presetDefaultB,Basic parameters,Basic parameters
 OptionNames,$presetModifiedB,Modified parameters,Mởdified parameters
 OptionNames,$presetDefault,By Default,By Default
@@ -12908,9 +12908,9 @@ OptionNames,connexionCarthageauto,auto Carthage Connection,auto Carthage Cónnec
 OptionNames,configtype,config. type,config. type
 OptionNames,configgeneral,config. generale,config. generale
 OptionNames,configxana,config. xana,config. xana
-OptionNames,autoConnexionLC,auto connection,auto connection
-OptionNames,autoConnexionLyoko,auto connection lyoko,auto connection lyoko
-OptionNames,autoConnexionCoeurVirtuel,auto connection virtual heart,auto connection virtual heart
+OptionNames,autoConnexionLC,auto connection,tự động kết nối
+OptionNames,autoConnexionLyoko,auto connection lyoko,tự động kết nối lyoko
+OptionNames,autoConnexionCoeurVirtuel,auto connection virtual heart,tự động kết nối lõi ảo
 OptionNames,display,display,Hiển thị
 OptionNames,accessibility,accessibility,Hỗ trợ
 OptionNames,dataSecurity,anonymous data,anonymous data
@@ -12969,7 +12969,7 @@ OptionNames,resetWindowsPos,reset windows,reset windows
 OptionNames,screenFolder,screenshots,Ảnh chụp màn hình
 OptionNames,screenshot,screenshot,screenshot
 OptionNames,saveWindows,save windows,save windows
-OptionNames,newGame,new game,new game
+OptionNames,newGame,new game,Trò chơi mới
 OptionNames,newGameContinue,continue story...,tiep tuc story...
 OptionNames,chapterSelection,chapters selection,Chọn chương
 OptionNames,loadaGame,load game,Tải game
@@ -12983,8 +12983,8 @@ OptionNames,trombinoscope,album,album
 OptionNames,timeline,timeline,timeline
 OptionNames,siteOfficiel,Official website,Official website
 OptionNames,showOptionsInStudy,show options under consideration,show options under consideration
-OptionNames,hideOptionsInStudy,hide options under consideration,hide options under consideration
-OptionNames,overviewMode,overview,overview
+OptionNames,hideOptionsInStudy,hide options under consideration,ẩn các tùy chọn đang xem xét
+OptionNames,overviewMode,overview,tổng quan
 OptionNames,classicviewMode,classic view,classic view
 OptionNames,customGameConfig_general,general,Cài đặt chung
 OptionNames,customGameConfig_startup,startup,Khởi đầu
@@ -13044,27 +13044,27 @@ OptionNames,lyokoTeamOnStartup,virtualized team,da ao hoa team
 OptionNames,earthTeamOnStartup,terrestrial team,terrestrial team
 OptionNames,teamMissionPos,team position,team position
 OptionNames,franzHopperAliveOLD,franz hopper alive,franz hopper alive
-OptionNames,franzHopperAlive,fall rescue,fall rescue
+OptionNames,franzHopperAlive,fall rescue,giải cứu khi rơi
 OptionNames,lyokoOnStartup,lyoko,lyoko
 OptionNames,lyokoDesertOnStartup,desert,desert
 OptionNames,lyokoForestOnStartup,forest,forest
 OptionNames,lyokoIceOnStartup,ice,ice
 OptionNames,lyokoMountainOnStartup,mountain,mountain
-OptionNames,sector5ExtrasOnStartup,5th sector extras,5th khu vuc extras
+OptionNames,sector5ExtrasOnStartup,5th sector extras,khu vực 5 mở rộng
 OptionNames,skidOnStartup,skidbladnir,skidbladnir
-OptionNames,replikaDiscovered,replika discovered,replika discovered
-OptionNames,hiddenHyperscanReplikas,secret replikas,secret replikas
+OptionNames,replikaDiscovered,replika discovered,phát hiện replika
+OptionNames,hiddenHyperscanReplikas,secret replikas,replika bí mật
 OptionNames,earthTroubles,earth troubles,earth troubles
 OptionNames,dnaFusionV,dna fused,dna fused
-OptionNames,virtDevirtCodesCarthage,virt/devirt codes obtained,virt/devirt codes obtained
-OptionNames,diaryDecyphered,hopper's diary decyphered,hopper's diary decyphered
+OptionNames,virtDevirtCodesCarthage,virt/devirt codes obtained,có mã ảo hóa/giải ảo hóa
+OptionNames,diaryDecyphered,hopper's diary decyphered,giải mã nhật ký hopper
 OptionNames,infiniteHolidays,infinite holidays,infinite holidays
 OptionNames,headTeacher,head teacher,head teacher
 OptionNames,classRepresentative,class representative,class representative
-OptionNames,xanaFirstAwakening,xana awakening,xana awakening
+OptionNames,xanaFirstAwakening,xana awakening,đánh thức xana
 OptionNames,futureFlash,future flash,future flash
-OptionNames,towerScanProgram,towers program,thaps chuong trinh
-OptionNames,overvInstalled,overvehicles,overvehicles
+OptionNames,towerScanProgram,towers program,tháp chương trình
+OptionNames,overvInstalled,overvehicles,siêu phương tiện
 OptionNames,dnaAlterations,dna alterations,dna alterations
 OptionNames,dnaAlterationFusion,dna fusion,dna fusion
 OptionNames,dnaAlterationConfusion,DNA confusion,DNA confusion
