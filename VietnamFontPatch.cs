@@ -115,6 +115,13 @@ namespace IFSCL.LocalizationPlugin
                     __result = "TỰ CHỌN";
                     return false; // Bỏ qua hàm gốc
                 }
+
+                // Sửa chữ "hợp pháp" thành tên dự án Việt hóa theo yêu cầu
+                if (idLower == "legal" || idLower == "légal" || idLower == "legales" || idLower == "légales" || idLower == "mentions" || idLower == "mentions_legales" || idLower == "mentions_légales")
+                {
+                    __result = "Dự án Việt Hóa phi lợi nhuận bởi Khanh_Vu_209";
+                    return false; // Bỏ qua hàm gốc
+                }
             }
             return true; // Chạy tiếp hàm dịch gốc cho các khóa khác
         }
