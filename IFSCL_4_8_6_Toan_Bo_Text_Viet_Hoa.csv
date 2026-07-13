@@ -12665,7 +12665,7 @@ OptionDescr,BAL_RELAX,Relax,Relax
 OptionDescr,BAL_CLASSIC,Classic,Classic
 OptionDescr,BAL_EXPERT,Expert,Expert
 OptionDescr,MONOS,"Monoscan (Manual detection, needs Aelita to stay on Lyoko to alert)","Mởnoscan (Manual detection, needs Aelita to stay on Lyoko to alert)"
-OptionDescr,creditsDESCR,Display the game's credits.,Hiển thị danh sách thực hiện của trò chơi.
+OptionDescr,creditsDESCR,Display the game's credits.,Hiển thị GHI CÔNG của trò chơi.
 OptionDescr,authorDESCR,Open the official website of Immudelki.,Mở official website of Immudelki.
 OptionDescr,titreDESCR,Open the social page of the game.,Mở social page of the game.
 OptionDescr,customModeDESCR,"You decide on all the parameters of the game, and make your own objectives. All programs are available. No game over due to loss of a Lyokowarrior.","You decide on all the parameters of the game, and make your own objectives. All chuong trinhs are kha dung. Không game over due to loss of a Lyokowarrior."
@@ -12899,7 +12899,7 @@ OptionNames,$presetDefault,By Default,By Default
 OptionNames,$presetModified,Modified,Mởdified
 OptionNames,customconfig,Custom config,Custom config
 OptionNames,THOÁT,quit,THOÁT GAME
-OptionNames,credits,credits,Danh sách thực hiện
+OptionNames,credits,credits,GHI CÔNG
 OptionNames,quitterp,quit game,Thoát game
 OptionNames,startGame,start,start
 OptionNames,back,back,QUAY LẠI
