@@ -7994,8 +7994,8 @@ don't use line below","matrix<color=#008584>infinite</color>
 don't use line below"
 Sentences,learnTab,Use the Tab key to re-enter one by one the last parts of the commands issued in the terminal,Su dung Tab key to re-enter one by one the last parts of the commands issued in the terminal
 Sentences,learnDataInterface,Navigating the window,Navigating the window
-Sentences,clickHereToWrite,click here to write,nhap vao here to write
-Sentences,clickHereToWriteTodaysDate,click here to write today's entry,nhap vao here to write today's entry
+Sentences,clickHereToWrite,click here to write,nhấp vào đây để viết
+Sentences,clickHereToWriteTodaysDate,click here to write today's entry,nhấp vào đây để ghi chép nhật ký hôm nay
 Sentences,osOriginForRemoteNotBooted,os origin for remote program isn't booted,os origin for remote chuong trinh isn't booted
 Sentences,kadicAntennaConnectedToX,Kadic Antenna connected to: [X],Kadic Antenna connected to: [X]
 Sentences,kadicAntennaDisconnected,Kadic Antenna disconnected,Kadic Antenna disconnected
@@ -8782,7 +8782,7 @@ Words,custom,custom,tu chon
 Words,aleatoire,random,random
 Words,peDesactiv,fullscreen disabled,fullscreen da vo hieu hoa
 Words,peActiv,fullscreen enabled,fullscreen da kich hoat
-Words,pressToAssign,press a key to assign,nhan a key to assign
+Words,pressToAssign,press a key to assign,nhấn một phím để gán
 Words,resetToDefaultMapping,reset to default mapping,reset to default mapping
 Words,quickControl,quick controls setup,quick controls setup
 Words,supercomputer,Supercomputer,Siêu máy tính
@@ -9345,8 +9345,8 @@ Words,rvlpInUse,rttp is being used,rttp is being used
 Words,hint,Some advice from,Some advice from
 Words,loadingComplete,loading complete,loading complete
 Words,TIẾP TỤC,continue,TIẾP TỤC
-Words,clickToContinue,click to continue,nhap vao to tiep tuc
-Words,clickToStart,click to start,nhap vao to start
+Words,clickToContinue,click to continue,nhấp vào để tiếp tục
+Words,clickToStart,click to start,nhấp vào để bắt đầu
 Words,memoryCacheStorage,memory cache storage,memory cache storage
 Words,doItem_take,take,take
 Words,doItem_leave,leave,leave
@@ -9491,8 +9491,8 @@ Words,waitingForSyncData,waiting for data synchronization,waiting for data synch
 Words,waitDataSyncShort,wait: datasync,wait: datasync
 Words,pingou_winner,Winner!,Winner!
 Words,pingou_gameOver,Game Over!,Game Over!
-Words,pingou_clickToContinue,Click to continue,Nhap vao to tiep tuc
-Words,pingou_clickToStart,Click to start,Nhap vao to start
+Words,pingou_clickToContinue,Click to continue,Nhấp vào để tiếp tục
+Words,pingou_clickToStart,Click to start,Nhấp vào để bắt đầu
 Words,pingou_highscore,high scores,high scores
 Words,pingou_tryAgain,Try again,Try again
 Words,pingou_attempts,[X] attempts left,[X] attempts left
