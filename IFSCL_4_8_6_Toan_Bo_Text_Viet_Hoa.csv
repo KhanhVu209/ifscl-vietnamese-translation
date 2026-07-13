@@ -13864,7 +13864,7 @@ ReadmeStructAll,surviveCreatureAssault_content,"Allies must be virtualized on Ly
 - The creatures can be slowed down by locking the doors with elevator commands:
 #elevator
 #elevator.off"
-ReadmeStructAll,locateFriendsOnLyoko,Locate & move friends on Lyoko,Locate & move friends on Lyoko
+ReadmeStructAll,locateFriendsOnLyoko,Locate & move friends on Lyoko,Định vị & di chuyển bạn bè trên Lyoko
 ReadmeStructAll,locateFriendsOnLyoko_content,"First the virtual map must be opened with:
 #vmap
 To locate friends, use:
@@ -13878,21 +13878,21 @@ Once a target is reached, you might need to use the ACTION panel to perform addi
 
 <cb>TIPS</c>
 - Click on a LW's icon in the virtual map to open his comcard and lock the virtual map's camera on them
-- Click on a LW's portrait in his comcard to lock the virtual map's camera on them","First the virtual map must be moed with:
+- Click on a LW's portrait in his comcard to lock the virtual map's camera on them","Trước tiên, bản đồ ảo phải được mở bằng:
 #vmap
-To locate friends, use:
+Để định vị bạn bè, sử dụng:
 #vmap.lwName
-Once located, it automatically mos their 'comcard' (communication card).
+Sau khi được định vị, game sẽ tự động mở comcard (thẻ truyền thông) của họ.
 
-Through the comcard, you indicate the LW where they should go (or follow).
-The muc tieu can be a location (a thap for example), characters that are in the same khu vuc, and more.
+Thông qua comcard, bạn chỉ định cho LW nơi họ nên đến (hoặc đi theo).
+Mục tiêu có thể là một vị trí (ví dụ như tháp), các nhân vật đang ở cùng một khu vực, v.v.
 
-Once a muc tieu is reached, you might need to use the ACTION panel to perform additional maneuver (entering a thap, getting on a vehicle,...)
+Sau khi đạt được mục tiêu, bạn có thể cần sử dụng bảng HÀNH ĐỘNG để thực hiện các thao tác bổ sung (vào tháp, lên phương tiện...)
 
-<cb>TIPS</c>
-- Nhap vao on a LW's icon in the virtual map to mo his comcard and lock the virtual map's camera on them
-- Nhap vao on a LW's portrait in his comcard to lock the virtual map's camera on them"
-ReadmeStructAll,locateWithCrd,Locate with Coordinates,Locate with Cóordinates
+<cb>MẸO</c>
+- Nhấp vào biểu tượng của một LW trên bản đồ ảo để mở comcard của họ và khóa camera của bản đồ ảo vào họ
+- Nhấp vào ảnh chân dung của một LW trong comcard để khóa camera của bản đồ ảo vào họ"
+ReadmeStructAll,locateWithCrd,Locate with Coordinates,Định vị bằng Tọa độ
 ReadmeStructAll,locateWithCrd_content,"The coordinates are relative to the sector that is displayed in the virtual map.
 You can move the virtual map directly to these coordinates.
 Please note that the numbers corresponding to crdX and crdZ may be negative.
@@ -14512,7 +14512,7 @@ Life points and action points form a single unit through nang luong points.
 Any action reduces the stock of nang luong. Enemies included.
 
 Quai vat are already present in the nha may, but completing the danger gauge will increase XANA's strength."
-ReadmeStructAll,entityLocChips,Localization chips (Calibration),Localization chips (Calibration)
+ReadmeStructAll,entityLocChips,Localization chips (Calibration),Chip định vị (Hiệu chuẩn)
 ReadmeStructAll,entityLocChips_content,"Chips are used by the supercomputer localization program.
 When malfunctioning (uncalibrated state), entities or related subject in virtual world might become invisible on the virtual map and/or impossible to locate automatically.
 
