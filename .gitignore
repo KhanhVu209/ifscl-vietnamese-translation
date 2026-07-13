@@ -1,0 +1,41 @@
+# Ignore the entire game folder and launcher folders
+/app/
+/ban_goc_backup/
+/Kolossus Launcher_Data/
+/MonoBleedingEdge/
+/D3D12/
+/Exported_Fonts/
+
+# Ignore launcher binary files
+/Kolossus Launcher.exe
+/UnityPlayer.dll
+/UnityCrashHandler64.exe
+/unins000.exe
+/unins000.dat
+
+# Ignore redundant or temporary font files
+/Ubuntu.ttf
+/Ubuntu_VietHoa_Chuan.ttf
+/Ubuntu_VietHoa_Goc_Chuan.ttf
+/Ubuntu_VietHoa_Padded.ttf
+
+# Ignore Unity bundle assets
+/*.bundle
+
+# Ignore packaged zip files
+/*.zip
+
+# Ignore local temporary/log files
+*.tmp
+*.log
+/LogOutput.log
+
+# Ignore BepInEx core library inside root (if any copy exists)
+/Mono.Cecil.dll
+
+# Ignore IDE/Gemini configs
+/.gemini/
+/.agents/
+/task.md
+/implementation_plan.md
+/walkthrough.md

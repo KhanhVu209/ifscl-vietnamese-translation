@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Sổ Tay Bách Khoa Lệnh IFSCL 4.8.6 - Bản Hướng Dẫn Chi Tiết</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap');
+  
+  @page {
+    size: A4;
+    margin: 15mm 14mm 15mm 14mm;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #1e293b;
+    background: #ffffff;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-size: 9.5pt;
+  }
+  
+  .header {
+    border-bottom: 3px solid #0f52ba;
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .header h1 {
+    font-size: 21pt;
+    font-weight: 700;
+    color: #0f52ba;
+    margin: 0 0 4px 0;
+    letter-spacing: -0.5px;
+  }
+  
+  .header .subtitle {
+    font-size: 10.5pt;
+    color: #475569;
+    font-weight: 600;
+  }
+  
+  .header .meta {
+    text-align: right;
+    font-size: 8.5pt;
+    color: #64748b;
+  }
+
+  .intro-box {
+    background-color: #f0f7ff;
+    border: 1px solid #bae6fd;
+    border-left: 4px solid #0284c7;
+    padding: 10px 14px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 9.2pt;
+  }
+  
+  h2.chapter-title {
+    font-size: 13pt;
+    color: #0f52ba;
+    border-bottom: 2px solid #0f52ba;
+    padding-bottom: 5px;
+    margin-top: 24px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .cmd-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 12px 14px;
+    background: #ffffff;
+    page-break-inside: avoid;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+  }
+
+  .cmd-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+  }
+
+  .cmd-title {
+    font-size: 11pt;
+    font-weight: 700;
+    color: #0f172a;
+  }
+
+  .cmd-badge {
+    background: #e0f2fe;
+    color: #0369a1;
+    font-size: 8pt;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 12px;
+  }
+
+  .cmd-desc {
+    font-size: 9.3pt;
+    color: #334155;
+    margin-bottom: 10px;
+  }
+
+  table.cmd-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+
+  table.cmd-table th {
+    background: #f1f5f9;
+    color: #334155;
+    font-size: 8.5pt;
+    font-weight: 600;
+    text-align: left;
+    padding: 6px 8px;
+    border: 1px solid #cbd5e1;
+  }
+
+  table.cmd-table td {
+    padding: 6px 8px;
+    border: 1px solid #e2e8f0;
+    font-size: 8.8pt;
+    vertical-align: top;
+  }
+
+  code {
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+    background-color: #f1f5f9;
+    color: #1e3a8a;
+    padding: 1.5px 5px;
+    border-radius: 4px;
+    font-size: 8.5pt;
+    font-weight: 700;
+  }
+
+  .example-box {
+    background: #f8fafc;
+    border-left: 3px solid #64748b;
+    padding: 8px 10px;
+    border-radius: 0 4px 4px 0;
+    font-size: 8.6pt;
+    color: #475569;
+  }
+
+  .example-box b {
+    color: #0f172a;
+  }
+
+  .footer {
+    margin-top: 24px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 8pt;
+    color: #64748b;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>SỔ TAY CÂU LỆNH IFSCL 4.8.6 TOÀN DIỆN</h1>
+    <div class="subtitle">Bản Hướng Dẫn Chi Tiết Cú Pháp, Tác Dụng & Ví Dụ Thực Tế</div>
+  </div>
+  <div class="meta">
+    Biên soạn chi tiết: Antigravity AI<br>
+    Chuẩn cú pháp game: Tiếng Anh 100%<br>
+    Giải thích & Mẹo chơi: Tiếng Việt
+  </div>
+</div>
+
+<div class="intro-box">
+  <b>💡 Nguyên tắc gõ lệnh nhanh trên Siêu máy tính:</b><br>
+  • Nhấn <b>TAB</b> để tự động điền nốt từ khóa lệnh đang gõ dở.<br>
+  • Nhấn <b>Mũi tên Lên / Xuống (↑ / ↓)</b> để gọi lại các câu lệnh vừa nhập trong lịch sử.<br>
+  • Tất cả lệnh nhập bằng <b>tiếng Anh chữ thường</b> (lowercase), các tham số cách nhau bởi dấu chấm <code>.</code>
+</div>
+
+<h2 class="chapter-title">I. QUẢN LÝ ẢO HÓA & CHIẾN BINH LYOKO (VIRTUALIZATION & WARRIORS)</h2>
+
+<div class="cmd-card">
+  <div class="cmd-header">
+    <div class="cmd-title">1. Quy Trình Ảo Hóa Cơ Bản (transf, scan, virt, defvirt)</div>
+    <div class="cmd-badge">Lệnh Thường Xuyên</div>
+  </div>
+  <div class="cmd-desc">
+    Bộ lệnh tiêu chuẩn 3 bước để đưa các chiến binh Lyoko (aelita, ulrich, yumi, odd, william) từ phòng máy quét Trái Đất lên thế giới ảo Lyoko và thu hồi về máy quét.
+  </div>
+  <table class="cmd-table">
+    <tr><th style="width: 38%;">Cú Pháp Lệnh</th><th>Ý Nghĩa & Chi Tiết Tham Số</th></tr>
+    <tr><td><code>transf.lwName</code></td><td>Chuẩn bị truyền tải chiến binh vào buồng quét (Tối đa chọn 3 chiến binh cùng lúc).</td></tr>
+    <tr><td><code>scan.lwName</code> (hoặc <code>link</code>)</td><td>Quét cấu trúc cơ thể chiến binh trong buồng Scanner.</td></tr>
+    <tr><td><code>virt.lwName</code></td><td>Ảo hóa chiến binh lên khu vực mặc định trên Lyoko.</td></tr>
+    <tr><td><code>virt.to.destinationName</code></td><td>Ảo hóa chiến binh đến một khu vực chỉ định (ví dụ: <code>virt.to.forest</code>, <code>virt.to.desert</code>).</td></tr>
+    <tr><td><code>defvirt.lwName</code></td><td>Thu hồi khẩn cấp chiến binh từ Lyoko về máy quét Trái Đất trước khi mất hết điểm sự sống (LP).</td></tr>
+  </table>
+  <div class="example-box">
+    <b>Ví dụ quy trình đưa Aelita và Ulrich lên rừng Lyoko:</b><br>
+    Gõ lần lượt: <code>transf.aelita</code> ➔ <code>transf.ulrich</code> ➔ <code>scan.aelita</code> ➔ <code>scan.ulrich</code> ➔ <code>virt.to.forest</code>
+  </div>
+</div>
+
+<div class="cmd-card">
+  <div class="cmd-header">
+    <div class="cmd-title">2. Giao Thức Truyền Tải & Đa Tác Tử (transfptc & magent)</div>
+    <div class="cmd-badge">Lệnh Nâng Cao / Yêu Cầu CD</div>
+  </div>
+  <div class="cmd-desc">
+    Chuyển đổi giữa chế độ ảo hóa truyền thống từ Trái Đất và ảo hóa ngoại vi/từ xa qua tàu Skidbladnir, đồng thời cho phép ảo hóa hàng loạt chiến binh cùng lúc.
+  </div>
+  <table class="cmd-table">
+    <tr><th style="width: 38%;">Cú Pháp Lệnh</th><th>Ý Nghĩa & Chi Tiết Tham Số</th></tr>
+    <tr><td><code>transfptc.mode.t</code></td><td>Chuyển về giao thức truyền thống từ máy quét Kadic (sử dụng lệnh <code>transf</code>, <code>scan</code>, <code>virt</code>).</td></tr>
+    <tr><td><code>transfptc.mode.v</code></td><td>Chuyển sang giao thức ngoại vi từ xa khi đang trên tàu Skidbladnir xâm nhập Replika (dùng tiền tố <code>e</code>: <code>etransf</code>, <code>escan</code>, <code>evirt</code>).</td></tr>
+    <tr><td><code>cd.read</code></td><td>Đọc ổ đĩa CD Multiagent để kích hoạt chương trình đa tác tử.</td></tr>
+    <tr><td><code>magent.etransf</code> / <code>.escan</code> / <code>.evirt</code></td><td>Thực hiện truyền tải, quét và ảo hóa đồng loạt toàn bộ đội hình chiến binh cùng một lúc chỉ với 1 câu lệnh.</td></tr>
+  </table>
+  <div class="example-box">
+    <b>Mẹo chiến đấu:</b> Trong tình huống khẩn cấp, dùng đĩa CD Multiagent và lệnh <code>magent.evirt</code> để đưa toàn đội tham chiến ngay lập tức mà không tốn thời gian gõ từng người.
+  </div>
+</div>
+
+<div class="cmd-card">
+  <div class="cmd-header">
+    <div class="cmd-title">3. Quản Lý Buồng Quét & Trang Phục (scanners & costumeext)</div>
+    <div class="cmd-badge">Quản Lý Phần Cứng</div>
+  </div>
+  <div class="cmd-desc">
+    Điều khiển trạng thái hoạt động của các buồng máy quét (Scanner 1, 2, 3...) và tính toán ngoại suy trang phục chiến đấu mới.
+  </div>
+  <table class="cmd-table">
+    <tr><th style="width: 38%;">Cú Pháp Lệnh</th><th>Ý Nghĩa & Chi Tiết Tham Số</th></tr>
+    <tr><td><code>scanners.all</code> / <code>scanners.on</code> / <code>.off</code></td><td>Bật, tắt hoặc khởi động lại toàn bộ hệ thống buồng máy quét.</td></tr>
+    <tr><td><code>scanners.scannerNum</code></td><td>Kiểm tra tình trạng hoặc chẩn đoán lỗi buồng quét số cụ thể (ví dụ: <code>scanners.1</code>).</td></tr>
+    <tr><td><code>costumeext.lwName</code> ➔ <code>costumeext.exe</code></td><td>Ngoại suy và cập nhật trang phục chiến đấu thế hệ mới cho chiến binh được chọn.</td></tr>
+  </table>
+</div>
+
+<div class="cmd-card">
+  <div class="cmd-header">
+    <div class="cmd-title">4. Phương Tiện Ảo & Liên Lạc (overvehicles & lyokoc)</div>
+    <div class="cmd-badge">Hỗ Trợ Di Chuyển</div>
+  </div>
+  <div class="cmd-desc">
+    Vật chất hóa các phương tiện di chuyển siêu tốc trên Lyoko và duy trì kênh liên lạc trực tuyến.
+  </div>
+  <table class="cmd-table">
+    <tr><th style="width: 38%;">Cú Pháp Lệnh</th><th>Ý Nghĩa & Chi Tiết Tham Số</th></tr>
+    <tr><td><code>overbike.ulrich</code> / <code>overwing.yumi</code> / <code>overboard.odd</code></td><td>Tạo xe máy Overbike cho Ulrich, phi cơ Overwing cho Yumi hoặc ván trượt Overboard cho Odd.</td></tr>
+    <tr><td><code>overvehicles</code> / <code>overvehicles.demater</code></td><td>Vật chất hóa toàn bộ xe cho các chủ nhân đang ở Lyoko hoặc thu hồi (hủy ảo hóa) tất cả phương tiện.</td></tr>
+    <tr><td><code>lyokoc.on</code> / <code>lyokoc.off</code> / <code>lyokoc.vcom</code></td><td>Bật/tắt liên lạc thoại hoặc kênh video trực tuyến hiển thị hình ảnh chiến binh từ Lyoko.</td></tr>
+  </table>
+</div>
+
+<h2 class="chapter-title">II. DÒ TÌM THÁP, ĐỊNH VỊ & BẢN ĐỒ (SCANS & MAPS)</h2>
+
+<div class="cmd-card">
+  <div class="cmd-header">
+    <div class="cmd-title">1. Quét Tòa Tháp Kích Hoạt (superscan & monoscan)</div>
+    <div class="cmd-badge">Định Vị Mục Tiêu</div>
+  </div>
+  <div class="cmd-desc">
+    Phát hiện các Tòa tháp bị kích hoạt bởi XANA (hào quang đỏ), Jeremy (hào quang xanh lá) hoặc Franz Hopper (hào quang trắng).
+  </div>
+  <table class="cmd-table">
+    <tr><th style="width: 38%;">Cú Pháp Lệnh</th><th>Ý Nghĩa & Chi Tiết Tham Số</th></tr>
+    <tr><td><code>superscan.xana</code> / <code>.jeremy</code> / <code>.franz</code></td><td>Hệ thống tự động quét và hiển thị tọa độ tháp bị kích hoạt gần nhất theo đối tượng.</td></tr>
+    <tr><td><code>superscan.auto.on</code> / <code>superscan.auto.off</code></td><td>Bật hoặc tắt chế độ quét tự động ngầm liên tục của Superscan.</td></tr>
+    <tr><td><code>monoscan.xana</code> ➔ <code>monoscan.exe</code></td><td>Dò tìm thủ công từng tháp khi Superscan tự động bị nhiễu do XANA tấn công hệ thống.</td></tr>
+  </table>
+</div>
+
+<div class="cmd-card">
+  <div class="cmd-header">
+    <div class="cmd-title">2. Quét Thế Giới Replika & Bản Đồ (hyperscan, vmap, gmap)</div>
+    <div class="cmd-badge">Bản Đồ Chiến Lược</div>
+  </div>
+  <div class="cmd-desc">
+    Định vị thế giới ảo Replika của XANA trên khắp các châu lục Trái Đất và mở bản đồ chi tiết khu vực.
+  </div>
+  <table class="cmd-table">
+    <tr><th style="width: 38%;">Cú Pháp Lệnh</th><th>Ý Nghĩa & Chi Tiết Tham Số</th></tr>
+    <tr><td><code>hyperscan.europe</code> / <code>.asia</code> / <code>.northamerica</code>...</td><td>Quét Mạng Lưới Toàn Cầu tìm nhà máy Replika theo châu lục (Âu, Á, Bắc Mỹ...).</td></tr>
+    <tr><td><code>vmap.destinationName</code> / <code>vmap.toweraccess</code></td><td>Mở bản đồ thế giới ảo Lyoko (rừng, sa mạc, núi, băng) và kiểm tra lối vào tháp.</td></tr>
+    <tr><td><code>gmap.locationName</code></td><td>Hiển thị bản đồ Trái Đất, định vị vị trí các chiến binh tại trường Kadic hoặc Nhà máy.</td></tr>
+    <tr><td><code>rmap.lwName</code> / <code>rplan.floorNumber</code></td><td>Hiển thị bản đồ cấu trúc nội bộ nhà máy Replika và sơ đồ từng tầng.</td></tr>
+  </table>
+</div>
+
+<h2 class="chapter-title">III. ĐIỀU KHIỂN TÀU SKIDBLADNIR & BIỂN SỐ (SKID & SEA)</h2>
+
+<div class="cmd-card">
+  <div class="cmd-header">
+    <div class="cmd-title">1. Vận Hành Tàu Skidbladnir (skid & sktrans)</div>
+    <div class="cmd-badge">Du Hành Biển Số</div>
+  </div>
+  <div class="cmd-desc">
+    Tàu ngầm Skidbladnir là phương tiện duy nhất giúp chiến binh rời Lyoko lặn xuống Biển Kỹ Thuật Số để tiêu diệt Replika.
+  </div>
+  <table class="cmd-table">
+    <tr><th style="width: 38%;">Cú Pháp Lệnh</th><th>Ý Nghĩa & Chi Tiết Tham Số</th></tr>
+    <tr><td><code>skid.to.sea</code> / <code>skid.do.dive</code></td><td>Đưa Skid rời hầm Sector 5 và lặn xuống Biển Kỹ Thuật Số.</td></tr>
+    <tr><td><code>skid.do.dock</code> / <code>skid.do.undock</code></td><td>Ghép nối tàu Skid vào Tòa Tháp trung chuyển hoặc tách rời.</td></tr>
+    <tr><td><code>sktrans.ein</code> / <code>sktrans.eout</code></td><td>Chuyển chiến binh vào buồng lái Navskid (`ein`) hoặc đưa ra ngoài (`eout`).</td></tr>
+    <tr><td><code>supersonar.exe</code></td><td>Phát sóng định vị tìm kiếm tàu nhỏ Navskid khi bị thất lạc giữa Biển Kỹ Thuật Số.</td></tr>
+  </table>
+</div>
+
+<h2 class="chapter-title">IV. SIÊU MÁY TÍNH, HIỆU CHỈNH & LỆNH ĐẶC BIỆT (CORE & SPECIAL)</h2>
+
+<div class="cmd-card">
+  <div class="cmd-header">
+    <div class="cmd-title">1. Chẩn Đoán & Sửa Lỗi Siêu Máy Tính (scstat, recalibrate)</div>
+    <div class="cmd-badge">Giải Câu Đố Phần Cứng</div>
+  </div>
+  <div class="cmd-desc">
+    Kiểm tra lỗi mạch lượng tử và hiệu chỉnh phần cứng sau khi sắp xếp lại bo mạch trong phòng lõi Siêu máy tính.
+  </div>
+  <table class="cmd-table">
+    <tr><th style="width: 38%;">Cú Pháp Lệnh</th><th>Ý Nghĩa & Chi Tiết Tham Số</th></tr>
+    <tr><td><code>scstat.circuits</code></td><td>Hiển thị cấu hình thứ tự mạch lượng tử bị lệch (Alpha α, Beta β, Gamma γ...).</td></tr>
+    <tr><td><code>scstat.circuits.calibrate</code></td><td>Xác nhận hoàn tất hiệu chỉnh sau khi bạn xuống Phòng Siêu Máy Tính cắm lại card theo Cuốn Sổ Tay.</td></tr>
+    <tr><td><code>scstat.core.rebuild</code></td><td>Tái cấu trúc và ổn định lõi trung tâm Siêu máy tính.</td></tr>
+  </table>
+  <div class="example-box">
+    <b>Hướng dẫn sửa lỗi mạch (Recalibration):</b><br>
+    Gõ <code>scstat.circuits</code> xem sơ đồ ➔ Mở Cuốn Sổ Tay (Notebook) xem thứ tự Alpha, Beta, Gamma ➔ Ra thang máy xuống <b>Supercomputer Room</b> cắm đúng thẻ ➔ Quay lại Lab gõ <code>scstat.circuits.calibrate</code>.
+  </div>
+</div>
+
+<div class="cmd-card">
+  <div class="cmd-header">
+    <div class="cmd-title">2. Lệnh Cốt Truyện & Nhiệm Vụ Đặc Biệt (rttp, codeearth, liberator)</div>
+    <div class="cmd-badge">Lệnh Tiến Trình Cốt Truyện</div>
+  </div>
+  <div class="cmd-desc">
+    Các câu lệnh tối quan trọng quyết định chiến thắng trong các chương cốt truyện (Story Mode).
+  </div>
+  <table class="cmd-table">
+    <tr><th style="width: 38%;">Cú Pháp Lệnh</th><th>Ý Nghĩa & Chi Tiết Tham Số</th></tr>
+    <tr><td><code>rttp</code> ➔ <code>rttp.exe</code> (hoặc <code>rttp.now</code>)</td><td>Kích hoạt chương trình Quay Lại Quá Khứ sau khi Aelita đã vào tháp nhập Code Lyoko.</td></tr>
+    <tr><td><code>codeearth.aelita</code> ➔ <code>codeearth.exe</code></td><td>Chương trình Master Key vật chất hóa Aelita ra ngoài đời thực.</td></tr>
+    <tr><td><code>liberator.exe</code></td><td>Kích hoạt chương trình Code: Liberator tiêu diệt triệt để XANA.</td></tr>
+    <tr><td><code>crypto.exe</code> / <code>masterc.exe</code></td><td>Giải mã mật khẩu đĩa mềm bí mật và nhập mã bảo mật cao nhất của Franz Hopper.</td></tr>
+  </table>
+</div>
+
+<div class="footer">
+  Tài Liệu Hướng Dẫn Chi Tiết IFSCL 4.8.6 — Việt Hóa & Biên Soạn Hoàn Chỉnh bởi Antigravity AI
+</div>
+
+</body>
+</html>
